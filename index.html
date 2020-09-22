@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <div class="left">
+        <div class="image">
+          <img src="./img/dice.jpg" alt="" />
+        </div>
+        <div class="points left"></div>
+        <div class="button">
+          <button id="btn-left" onclick="rollTheDice(event)">
+            Roll the dice!
+          </button>
+        </div>
+      </div>
+      <div class="right">
+        <div class="image">
+          <img src="./img/dice.jpg" alt="" />
+        </div>
+        <div class="points right"></div>
+        <div class="button">
+          <button id="btn-right" onclick="rollTheDice(event)">
+            Roll the dice!
+          </button>
+        </div>
+      </div>
+    </main>
+    <div class="result"></div>
+    <script src="dice-game.js"></script>
+  </body>
+</html>
