@@ -1,7 +1,9 @@
-function ageCalculator(birthDate) {
-  let currentDate = new Date().getFullYear();
-  let age = currentDate - birthDate;
-  console.log("You are either " + age + " or " + (age - 1));
+function product(array) {
+  let product = 1;
+  for (let i = 0; i < array.length; i++) {
+    product *= array[i];
+  }
+  return product;
 }
 
-ageCalculator(1991);
+product([1, 2, 3, 4, 5]);

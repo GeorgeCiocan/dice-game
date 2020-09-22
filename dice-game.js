@@ -39,7 +39,7 @@ function rollTheDice(event) {
     // for each button, and then I kind of loose the
     // opportunity for using event parameter, that
     // allows us to show the connection between two different buttons, but the same function
-    // (regarding line 18)
+    // (regarding line 20)
     if (playerOneScore < playerTwoScore) {
       showResult.innerText = playerTwo + " won!";
     } else if (playerOneScore > playerTwoScore) {
